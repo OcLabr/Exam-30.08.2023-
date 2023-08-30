@@ -1,4 +1,4 @@
-package org.example.task2;
+package org.example.task3;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -16,6 +16,6 @@ public class Array {
         System.out.println(listOfString
                 .stream()
                 .sorted(Comparator.comparingInt(String::length))
-                .collect(Collectors.toList()));
+                .toList());
     }
 }
